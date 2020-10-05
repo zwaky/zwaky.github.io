@@ -17,7 +17,7 @@ let hardshiphigh = 3;
 
 function setup() {
   frameRate();
-  createCanvas(1600, 1200);
+  createCanvas(1600, 1600);
   cols = width / resolution;
   rows = height / resolution;
   grid = make2DArray(cols, rows);
