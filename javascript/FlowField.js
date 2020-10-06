@@ -43,7 +43,7 @@ let visualgrid = [];
 
 
 function setup() {
-  createCanvas(1200, 1200);
+  createCanvas(600, 600);
   cols = width / scl;
   rows = height / scl;
   for (let i = -cols; i <= cols * rows; i++) {
